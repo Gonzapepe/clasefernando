@@ -19,3 +19,13 @@ def diametro_circulo(R):
 	diametro = 2*R
 	return print('el diametro es: ', diametro)
 
+def area_equilatero(b,h):
+	area = (b*h)/2
+	return print ('el area es: ', area)
+
+def perimetro_escaleno(l1,l2,l3):
+	perimetro = l1+l2+l3
+	return print('el perimetro es: ',perimetro)
+def perimetro_isosceles(l1,l2):
+	perimetro = l1*2 +l2
+	return print('el perimetro es: ',perimetro)
